@@ -1,0 +1,25 @@
+.chat-screen {
+    margin: 0px var(--horizontal-space);
+}
+
+.chat-time {
+    margin-bottom: 20px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+.chat-noti {
+    position: absolute;
+    margin-top: 10px;
+    background-color: tomato;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    top: 20px;
+    left: 15px;
+}
