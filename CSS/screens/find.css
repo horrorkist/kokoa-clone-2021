@@ -1,0 +1,128 @@
+.find-icons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-icons__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find-icons__icon i {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.find-icons__icon__text {
+    font-size: 20px;
+}
+
+.recommended-friends {
+    margin: 30px 0px;
+    padding: 30px 0px;
+    border-top: var(--partition-border);
+    border-bottom: var(--partition-border);
+}
+
+.recommended-friends__title {
+    font-size: 16px;
+    color: var(--kokoa-gray);
+}
+
+.recommended-friends__text {
+    margin: 100px 0px;
+    font-size: 20px;
+    color: var(--kokoa-gray);
+    display: block;
+    text-align: center;
+}
+
+.open-chat__header {
+    color: var(--kokoa-gray);
+    display: flex;
+    justify-content: space-between;
+}
+
+.open-chat__header span {
+    opacity: 0.6;
+}
+
+.open-chat__room {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    border-bottom: var(--partition-border);
+}
+
+.open-chat__room .open-chat__room__column:first-child {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.open-chat__room__title {
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+.open-chat__room__subtitle {
+    font-size: 15px;
+    color: var(--kokoa-gray);
+    margin-bottom: 7px;
+}
+
+.open-chat__room__info {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: var(--kokoa-gray);
+}
+
+.open-chat__room__info img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.open-chat__room__members {
+    opacity: 0.6;
+}
+
+.open-chat__room__info .dividor {
+    width: 1px;
+    height: 15px;
+    background-color: var(--kokoa-gray);
+    opacity: 0.5;
+    margin: 0px 5px;
+}
+
+.open-chat__room__state {
+    color: magenta;
+}
+
+.open-chat__room .open-chat__room__column:last-child {
+    display: flex;
+    position: relative;
+}
+
+.open-chat__room__thumbnail {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.open-chat__room__likes {
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: var(--kokoa-gray);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.open-chat__room__likes span {
+    color: white;
+}
