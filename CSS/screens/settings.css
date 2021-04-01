@@ -1,0 +1,43 @@
+.settings-list {
+    padding-top: 130px;
+}
+
+.settings-setting {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.settings-setting:last-child {
+    border-bottom: none;
+}
+
+.settings-setting__column {
+    display: flex;
+    align-items: center;
+}
+
+.settings-setting__column:last-child span {
+    color: var(--kokoa-gray);
+}
+.settings-setting__icon {
+    width: 60px;
+}
+
+.settings-setting__title {
+    margin-right: 5px;
+}
+
+.screen-border {
+    padding: 50px 0px;
+}
+
+.screen-border__line {
+    border-top: 1px solid var(--kokoa-gray);
+}
+
+.settings-list-below {
+    padding-top: 0px;
+}

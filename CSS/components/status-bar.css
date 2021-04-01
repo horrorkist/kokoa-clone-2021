@@ -4,9 +4,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px;
     padding: 5px 3px;
     background-color: white;
+    margin-bottom: 50px;
+}
+
+.status-bar-chatroom {
+    background-color: #abc1d1;
 }
 
 .status-bar__column {

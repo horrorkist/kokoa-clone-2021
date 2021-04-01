@@ -1,0 +1,45 @@
+.alt-header {
+    position: fixed;
+    width: 100%;
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.alt-header-chatroom {
+    background-color: #abc1d1;
+}
+
+.alt-header__title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.alt-header__column {
+    width: 33%;
+}
+
+
+.alt-header__column:first-child {
+    padding-left: var(--horizontal-space);
+    margin-right: auto;
+}
+
+.alt-header__column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.alt-header__column:last-child {
+    display: flex;
+    padding-right: var(--horizontal-space);
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.alt-header__column i {
+    margin-left: 30px;
+}
+
