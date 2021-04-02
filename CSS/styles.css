@@ -12,6 +12,7 @@
 @import "components/user-component.css";
 @import "components/icon-row.css";
 @import "components/alt-header.css";
+@import "components/no-mobile.css";
 
 /*Screens*/
 @import "screens/index-header.css";
@@ -21,10 +22,15 @@
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/settings.css";
+@import "screens/chat.css";
 
 body {
     font-family: 'Open Sans', sans-serif;
     height: 1000vh;
+}
+
+.body-chat {
+    background-color: #abc1d1;
 }
 
 .main-screen {

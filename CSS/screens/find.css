@@ -103,6 +103,30 @@
     right: 5px;
 }
 
+.open-chat__room__likes i {
+    color: white;
+}
+
 .open-chat__room__likes span {
     color: white;
+}
+
+@keyframes HeartBeat {
+    0% {
+        transform: none;
+        color: white;
+    }
+    50% {
+        transform: scale(1.5);
+        color: red;
+    }
+    100% {
+        transform: none;
+        color: white;
+    }
+}
+
+.open-chat__room__likes:hover i {
+    will-change: transform;
+    animation: HeartBeat 1s ease-in-out infinite;
 }
